@@ -156,6 +156,8 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="pulse_accent_color_title">Use accent color for pulse</string>
+    <string name="pulse_accent_color_summary">Enabling this will make pulse use your current accent color. It will disable Lava Lamp</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
