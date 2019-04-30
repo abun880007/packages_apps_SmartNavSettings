@@ -56,7 +56,7 @@ import com.android.internal.utils.Config.ButtonConfig;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.aosip.owlsnest.preference.CustomSeekBarPreference;
+import com.aosip.support.preference.CustomSeekBarPreference;
 
 public class SmartbarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {

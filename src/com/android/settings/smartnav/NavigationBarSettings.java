@@ -35,8 +35,8 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.aosip.owlsnest.preference.CustomSeekBarPreference;
-import com.aosip.owlsnest.preference.SystemSettingSwitchPreference;
+import com.aosip.support.preference.CustomSeekBarPreference;
+import com.aosip.support.preference.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.utils.ActionConstants;
 import com.android.internal.utils.Config;

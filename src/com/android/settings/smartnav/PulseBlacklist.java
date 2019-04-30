@@ -40,8 +40,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 
-import com.aosip.owlsnest.preference.PackageListAdapter;
-import com.aosip.owlsnest.preference.PackageListAdapter.PackageItem;
+import com.aosip.support.preference.PackageListAdapter;
+import com.aosip.support.preference.PackageListAdapter.PackageItem;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 

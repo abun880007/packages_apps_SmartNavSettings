@@ -22,8 +22,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
-import com.aosip.owlsnest.preference.CustomSeekBarPreference;
+import com.aosip.support.colorpicker.ColorPickerPreference;
+import com.aosip.support.preference.CustomSeekBarPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.utils.ActionConstants;
