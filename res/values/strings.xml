@@ -239,5 +239,7 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation on stock navbar</string>
+	
+	<string name="navbar_tuner_summary">Navigation bar tuner settings</string>
 
 </resources>
