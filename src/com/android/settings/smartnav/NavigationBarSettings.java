@@ -60,9 +60,11 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
     private static final String KEY_PULSE_SETTINGS = "pulse_settings";
     private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
     private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
+    private static final String KEY_SWIPE_START = "gesture_swipe_start";
 
     private CustomSeekBarPreference mSwipeTriggerLength;
     private CustomSeekBarPreference mSwipeTriggerTimeout;
+    private CustomSeekBarPreference mSwipeTriggerStart;
     private SwitchPreference mNavbarVisibility;
     private SystemSettingSwitchPreference mGestureNavigation;
     private ListPreference mNavbarMode;
@@ -131,6 +133,13 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
                 getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_timout));
         mSwipeTriggerTimeout.setValue(value);
         mSwipeTriggerTimeout.setOnPreferenceChangeListener(this);
+
+        mSwipeTriggerStart = (CustomSeekBarPreference) findPreference(KEY_SWIPE_START);
+        value = Settings.System.getInt(getContentResolver(),
+                Settings.System.BOTTOM_GESTURE_SWIPE_START,
+                getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_start));
+        mSwipeTriggerStart.setValue(value);
+        mSwipeTriggerStart.setOnPreferenceChangeListener(this);
 
         final boolean canMove = ActionUtils.navigationBarCanMove();
         if (canMove) {
@@ -242,6 +251,11 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
             int value = (Integer) newValue;
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.BOTTOM_GESTURE_TRIGGER_TIMEOUT, value, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mSwipeTriggerStart) {
+            int value = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.BOTTOM_GESTURE_SWIPE_START, value, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
