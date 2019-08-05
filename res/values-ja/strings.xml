@@ -216,8 +216,10 @@
     <string name="gesture_interface_title">ジェスチャー</string>
     <string name="use_bottom_gesture_title">ナビゲーションジェスチャー</string>
     <string name="use_bottom_gesture_summary">ナビゲーションに下部からの上スワイプジェスチャーを使用する</string>
-    <string name="gesture_swipe_length_title">スワイプ起動領域の高さ</string>
-    <string name="gesture_swipe_length_summary">スワイプ起動領域の下部からの高さ</string>
+    <string name="gesture_swipe_length_title">スワイプ起動領域の長さ</string>
+    <string name="gesture_swipe_length_summary">ジェスチャー起動に必要なスワイプの長さ</string>
+    <string name="gesture_swipe_start_title">スワイプ起動領域の高さ</string>
+    <string name="gesture_swipe_start_summary">ジェスチャー起動に必要な画面下部からの最低限の高さ</string>
     <string name="gesture_action_timeout_title">スワイプ起動の持続時間</string>
     <string name="gesture_action_timeout_summary">ジェスチャーアクションが開始される前の待機時間</string>
     <string name="bottom_gestures_feedback_duration_title">振動フィードバックの長さ</string>
