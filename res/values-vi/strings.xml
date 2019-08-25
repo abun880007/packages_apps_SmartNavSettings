@@ -28,7 +28,7 @@
     <string name="navigation_bar_left_summary">Thanh điều hướng sẽ hiển thị ở cạnh trái màn hình khi xoay ngang thiết bị</string>
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">Gói biểu tượng</string>
-    <string name="image_exceeds_max_allowed_size">Kích thước ảnh không được vượt quá 512x512</string>
+    <string name="image_exceeds_max_allowed_size">Hình ảnh không vượt quá 512x512</string>
     <string name="invalid_icon_from_uri">Không thể tải ảnh từ nhà cung cấp ảnh</string>
     <string name="picker_activities">Hoạt động</string>
     <string name="select_custom_app_title">Chọn ứng dụng tùy chỉnh</string>
@@ -145,8 +145,8 @@
     <string name="profile_choose_app">Chọn ứng dụng</string>
     <string name="dialog_delete_title">Xoá</string>
     <string name="dialog_delete_message">Xoá các mục đã chọn?</string>
-    <string name="pulse_accent_color_title">Dùng màu chủ đạo cho sóng âm nhạc</string>
-    <string name="pulse_accent_color_summary">Bật tùy chọn này sẽ buộc sóng âm nhạc sử dụng màu chủ đạo của hệ thống. Đèn Dung nham sẽ bị tắt</string>
+    <string name="pulse_accent_color_title">Dùng màu chủ đề cho sóng âm nhạc</string>
+    <string name="pulse_accent_color_summary">Bật tùy chọn này sẽ buộc sóng âm nhạc sử dụng màu chủ đề của hệ thống. Đèn Dung nham sẽ bị tắt</string>
     <string name="fling_lavalamp_color_from">Màu bắt đầu</string>
     <string name="fling_lavalamp_color_to">Đèn Lava màu cuối</string>
     <string name="pulse_colors_reset_title">Đặt lại màu sóng nhạc</string>
@@ -159,7 +159,7 @@
     <string name="pulse_filled_block_size">Kích thước khối</string>
     <string name="pulse_empty_block_size">Khoảng cách khối</string>
     <!-- Navbar height -->
-    <string name="navigation_bar_size_title">Kích thước thanh</string>
+    <string name="navigation_bar_size_title">Kích thước thanh điều hướng</string>
     <string name="portrait_title">Chiều cao nằm dọc</string>
     <string name="land_vert_title">Chiều rộng nằm ngang</string>
     <string name="land_hor_title">Chiều cao nằm ngang</string>
